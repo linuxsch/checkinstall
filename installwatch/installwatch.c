@@ -62,6 +62,7 @@
 #define LOGLEVEL (LOG_USER | LOG_INFO | LOG_PID)
 #define BUFSIZE 1024
 
+/* for compile in centos7 64bit */
 #define GLIBC_MINOR 10
 
 #define error(X) (X < 0 ? strerror(errno) : "success")
