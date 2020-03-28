@@ -62,6 +62,8 @@
 #define LOGLEVEL (LOG_USER | LOG_INFO | LOG_PID)
 #define BUFSIZE 1024
 
+#define GLIBC_MINOR 10
+
 #define error(X) (X < 0 ? strerror(errno) : "success")
 
 int __installwatch_refcount = 0;
